@@ -17,4 +17,8 @@ export default defineConfig({
       views: path.resolve(__dirname, '/src/views'),
     },
   },
+  base: '/layouts-mega-thread/',
+  build: {
+    assetsDir: 'assets',
+  },
 });
